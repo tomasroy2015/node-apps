@@ -1,16 +1,16 @@
 {
-  "name": "dbexample",
+  "name": "couchdb_example",
   "version": "1.0.0",
-  "description": "example",
-  "main": "app.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Tomas",
+  "author": "tomas",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "errorhandler": "^1.5.0",
+    "error-handler": "^1.0.0",
     "express": "^4.16.2",
     "express-session": "^1.15.6",
     "jade": "^1.11.0",
@@ -18,9 +18,7 @@
     "logger": "0.0.1",
     "method-override": "^2.3.10",
     "nano": "^6.4.2",
-    "routes": "^2.1.0",
     "serve-favicon": "^2.4.5",
     "url": "^0.11.0"
-  },
-  "devDependencies": {}
+  }
 }
